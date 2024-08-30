@@ -8,3 +8,8 @@ jobs:
         run: echo "Hello Vishnu."
       - name: Print Good Bye
         run: echo "Done - Bye!"
+      - name: Multi Line Run Command
+        run: |
+          echo "This is the first line."
+          echo "This is the second line."
+          pwd
