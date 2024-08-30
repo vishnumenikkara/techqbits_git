@@ -13,3 +13,9 @@ jobs:
           echo "This is the first line."
           echo "This is the second line."
           pwd
+
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hostname
+        run: hostname
